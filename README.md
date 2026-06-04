@@ -7,6 +7,11 @@ YouTube Video Link:
 https://www.youtube.com/watch?v=-b6D1MG8CVk&t=24s
 
 ---
+## deployement Link
+  https://linksphere-url-shortener-analytics-cgwxhmzko.vercel.app
+
+
+  
 # LinkSphere - URL Shortener with Analytics
 
 ## Project Overview
@@ -275,8 +280,6 @@ CLIENT_URL=http://localhost:5173
 * Dark Mode Support
 * Email Notifications
 * Team Collaboration Features
-## deployement
-https://linksphere-url-shortener-analytics.vercel.app/dashboard
 
 ## Author
 
