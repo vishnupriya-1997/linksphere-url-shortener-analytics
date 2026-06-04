@@ -158,9 +158,8 @@ export default function UrlTable({ links, loading, onRefresh }) {
           <tbody className="divide-y divide-slate-200">
             {links.map((link) => {
               const shortUrl =
-                link.shortUrl ||
-              // `http://10.1.7.195:5000/${link.shortCode}`
-              `http://localhost:5000/${link.shortCode}`;
+  link.shortUrl ||
+  `https://linksphere-url-shortener-analytics.onrender.com/${link.shortCode}`;
 
               return (
                 <tr
@@ -264,10 +263,9 @@ export default function UrlTable({ links, loading, onRefresh }) {
       {/* Mobile Cards */}
       <div className="md:hidden space-y-3">
         {links.map((link) => {
-          const shortUrl =
-            link.shortUrl ||
-            //`http://10.1.7.195:5000/${link.shortCode}`
-            `http://localhost:5000/${link.shortCode}`;
+            const shortUrl =
+  link.shortUrl ||
+  `https://linksphere-url-shortener-analytics.onrender.com/${link.shortCode}`;
 
           return (
             <div
